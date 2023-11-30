@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { ProductsIndex } from "./ProductsIndex";
+import { Signup } from "./Signup";
 
 export function Content() {
 
@@ -19,6 +20,7 @@ export function Content() {
        
   return (
     <main>
+      <Signup />
       <ProductsIndex products={products}/>
     </main>
   );
