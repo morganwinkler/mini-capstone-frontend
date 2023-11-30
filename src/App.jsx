@@ -1,10 +1,15 @@
 import './App.css'
+import { Content } from './Content';
+import { Footer } from './Footer.1';
+import { Header } from './Header'
 
 function App() {
 
   return (
     <div>
-      <h1>hi hi hi </h1>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   )
 }
