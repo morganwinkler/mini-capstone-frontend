@@ -7,7 +7,7 @@ export function ProductsIndex(props) {
       {props.products.map((product) => (
         <div key={product.id}>
           <h2>{product.name}</h2>
-          <img src={product.images[0].url} />
+          {/* <img src={product.images[0].url} /> */}
           <p>Price: {product.price}</p>
         </div>
       ))}
